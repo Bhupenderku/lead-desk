@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LeadDesk AI CRM - All-in-One Lead Management Solution</title>
+    <meta
+      name="description"
+      content="Run ads, capture leads, and close deals with LeadDesk AI CRM. The all-in-one solution for modern businesses."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://leaddesk.ai/" />
+    <meta
+      property="og:title"
+      content="LeadDesk AI CRM - All-in-One Lead Management Solution"
+    />
+    <meta
+      property="og:description"
+      content="Run ads, capture leads, and close deals with LeadDesk AI CRM. The all-in-one solution for modern businesses."
+    />
+    <meta property="og:image" content="https://leaddesk.ai/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://leaddesk.ai/" />
+    <meta
+      property="twitter:title"
+      content="LeadDesk AI CRM - All-in-One Lead Management Solution"
+    />
+    <meta
+      property="twitter:description"
+      content="Run ads, capture leads, and close deals with LeadDesk AI CRM. The all-in-one solution for modern businesses."
+    />
+    <meta property="twitter:image" content="https://leaddesk.ai/og-image.jpg" />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Signup Page -->
+    <div id="signup-page" class="auth-page">
+      <div class="page-header">
+        <h1>Create Your Account</h1>
+        <p>Join thousands of businesses growing with LeadDesk AI</p>
+      </div>
+      <div class="container">
+        <div class="auth-container">
+          <div class="auth-header">
+            <h2>Sign Up</h2>
+            <p>Start your 14-day free trial</p>
+          </div>
+          <form>
+            <div class="form-group">
+              <label for="fullname">Full Name</label>
+              <input
+                type="text"
+                id="fullname"
+                class="form-control"
+                placeholder="John Doe"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Work Email</label>
+              <input
+                type="email"
+                id="email"
+                class="form-control"
+                placeholder="john@company.com"
+                required
+              />
+              <small style="color: var(--slate); font-size: 0.875rem"
+                >Use a work email if possible</small
+              >
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                class="form-control"
+                placeholder="••••••••"
+                required
+              />
+              <small style="color: var(--slate); font-size: 0.875rem"
+                >Must be at least 8 characters</small
+              >
+            </div>
+            <div class="form-group">
+              <label for="company">Company Name</label>
+              <input
+                type="text"
+                id="company"
+                class="form-control"
+                placeholder="Company Inc."
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone (Optional)</label>
+              <input
+                type="tel"
+                id="phone"
+                class="form-control"
+                placeholder="+91 98765 43210"
+              />
+            </div>
+            <div class="form-group">
+              <div style="display: flex; align-items: center; gap: 0.5rem">
+                <input type="checkbox" id="terms" required />
+                <label for="terms"
+                  >I agree to the
+                  <a href="/legal/terms">Terms of Service</a> and
+                  <a href="/legal/privacy">Privacy Policy</a></label
+                >
+              </div>
+            </div>
+            <button
+              type="submit"
+              class="btn btn-primary"
+              style="width: 100%; margin-bottom: 1rem"
+            >
+              Create Account
+            </button>
+          </form>
+          <div class="auth-divider">
+            <span>OR</span>
+          </div>
+          <div class="social-login">
+            <button class="btn-social">
+              <i class="fab fa-google"></i> Continue with Google
+            </button>
+            <button class="btn-social">
+              <i class="fab fa-microsoft"></i> Continue with Microsoft
+            </button>
+          </div>
+          <div class="auth-alt">
+            Already have an account? <a href="/login">Log in</a>
+          </div>
+          <div
+            style="
+              text-align: center;
+              margin-top: 1.5rem;
+              color: var(--slate);
+              font-size: 0.875rem;
+            "
+          >
+            No card required for trial.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
