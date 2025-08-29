@@ -66,21 +66,45 @@
           LeadDesk AI CRM
         </div>
         <ul class="nav-links">
-          <li><a href="./features.html">Features</a></li>
-          <li><a href="./how-it-works.html">How It Works</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="./case-studies.html">Case Studies</a></li>
-          <li><a href="./blog.html">Blog</a></li>
-          <li><a href="#docs">Docs</a></li>
-          <li><a href="#faq">FAQ</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="how-it-works.html">How It Works</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="case-studies.html">Case Studies</a></li>
+          <li><a href="industries.html">Industries</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <!-- <li><a href="docs.html">Docs</a></li>
+          <li><a href="faq.html">FAQ</a></li> -->
         </ul>
         <div class="nav-actions">
           <a href="./login.html" class="btn btn-ghost">Log In</a>
           <a href="./signup.html" class="btn btn-primary">Start Free Trial</a>
-          <button class="mobile-menu-btn">
+          <button
+            class="mobile-menu-btn"
+            onclick="document.getElementById('mobileNav').style.display='flex'"
+          >
             <i class="fas fa-bars"></i>
           </button>
         </div>
+        <nav class="mobile-nav" id="mobileNav" style="display: none">
+          <button
+            class="close-mobile-nav"
+            onclick="document.getElementById('mobileNav').style.display='none'"
+          >
+            <i class="fas fa-times"></i>
+          </button>
+          <a href="features.html">Features</a>
+          <a href="how-it-works.html">How It Works</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="case-studies.html">Case Studies</a>
+          <a href="industries.html">Industries</a>
+          <a href="blog.html">Blog</a>
+          <a href="docs.html">Docs</a>
+          <a href="faq.html">FAQ</a>
+          <a href="./login.html" class="btn btn-ghost" style="margin-top: 2rem"
+            >Log In</a
+          >
+          <a href="./signup.html" class="btn btn-primary">Start Free Trial</a>
+        </nav>
       </div>
     </nav>
 
@@ -316,6 +340,80 @@
       </div>
     </section>
 
+    <!-- Industries Section -->
+    <section class="industries-section section">
+      <div class="container">
+        <div class="industries-header">
+          <h2>Industries We Serve</h2>
+          <p>LeadDesk AI CRM is trusted by businesses across every sector</p>
+        </div>
+        <div class="industries-grid">
+          <div class="industry-card">
+            <div class="industry-icon"><i class="fas fa-building"></i></div>
+            <div class="industry-title">Real Estate</div>
+            <div class="industry-desc">
+              Manage property leads, automate follow-ups, and close deals
+              faster.
+            </div>
+          </div>
+          <div class="industry-card">
+            <div class="industry-icon">
+              <i class="fas fa-user-graduate"></i>
+            </div>
+            <div class="industry-title">Education</div>
+            <div class="industry-desc">
+              Capture student inquiries, nurture prospects, and boost
+              admissions.
+            </div>
+          </div>
+          <div class="industry-card">
+            <div class="industry-icon"><i class="fas fa-stethoscope"></i></div>
+            <div class="industry-title">Healthcare</div>
+            <div class="industry-desc">
+              Track patient leads, manage appointments, and improve engagement.
+            </div>
+          </div>
+          <div class="industry-card">
+            <div class="industry-icon"><i class="fas fa-headset"></i></div>
+            <div class="industry-title">Call Centers</div>
+            <div class="industry-desc">
+              Centralize calling, automate workflows, and monitor agent
+              performance.
+            </div>
+          </div>
+          <div class="industry-card">
+            <div class="industry-icon"><i class="fas fa-briefcase"></i></div>
+            <div class="industry-title">Financial Services</div>
+            <div class="industry-desc">
+              Automate lead assignment, reminders, and compliance tracking.
+            </div>
+          </div>
+          <div class="industry-card">
+            <div class="industry-icon"><i class="fas fa-plane"></i></div>
+            <div class="industry-title">Travel & Hospitality</div>
+            <div class="industry-desc">
+              Capture travel leads, manage bookings, and delight customers.
+            </div>
+          </div>
+          <div class="industry-card">
+            <div class="industry-icon"><i class="fas fa-industry"></i></div>
+            <div class="industry-title">Manufacturing</div>
+            <div class="industry-desc">
+              Track B2B leads, manage distributors, and streamline sales.
+            </div>
+          </div>
+          <div class="industry-card">
+            <div class="industry-icon">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+            <div class="industry-title">Retail</div>
+            <div class="industry-desc">
+              Engage shoppers, manage loyalty, and drive repeat sales.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Screenshots Section -->
     <section class="screenshots section">
       <div class="container">
@@ -580,20 +678,21 @@
           <div class="footer-column">
             <h3>Product</h3>
             <ul class="footer-links">
-              <li><a href="#features">Features</a></li>
-              <li><a href="#how-it-works">How It Works</a></li>
-              <li><a href="#pricing">Pricing</a></li>
-              <li><a href="#integrations">Integrations</a></li>
+              <li><a href="features.html">Features</a></li>
+              <li><a href="how-it-works.html">How It Works</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="integrations.html">Integrations</a></li>
+              <li><a href="industries.html">Industries</a></li>
               <li><a href="#changelog">Changelog</a></li>
             </ul>
           </div>
           <div class="footer-column">
             <h3>Resources</h3>
             <ul class="footer-links">
-              <li><a href="#docs">Documentation</a></li>
-              <li><a href="#blog">Blog</a></li>
-              <li><a href="#case-studies">Case Studies</a></li>
-              <li><a href="#faq">FAQ</a></li>
+              <li><a href="./docs.html">Documentation</a></li>
+              <li><a href="./blog.html">Blog</a></li>
+              <li><a href="./case-studies.html">Case Studies</a></li>
+              <li><a href="./faq.html">FAQ</a></li>
               <li><a href="#support">Support</a></li>
             </ul>
           </div>
